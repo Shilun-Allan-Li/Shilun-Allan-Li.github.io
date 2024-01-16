@@ -6,6 +6,7 @@
 usemathjax: true
 ---
 
+{% include mathjax.html %}
 
 # The Polynomial Freiman-Ruzsa Conjecture
 
@@ -50,6 +51,7 @@ The project is now over. As such, we are currently working towards stabilising t
 
 Here is the list of files that do not depend on any other PFR file, indicating they are good candidates for upstreaming to mathlib:
 
+{% include files_to_upstream.md %}
 
 ## Source reference
 
