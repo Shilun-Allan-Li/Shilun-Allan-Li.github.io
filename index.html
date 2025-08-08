@@ -183,7 +183,22 @@ a:hover{color:#566c7f}
     <div class="main-more-container">
         <div id="main-pub-container">
             <h5 class="subtitle">Selected Publications
+<!--             (
+                <a id="publication-by-selected" href="javascript:;", onClick="publicationBySelected();">show selected</a> /
+                <a id="publication-by-date" href="javascript:;", onClick="publicationByDate();">show all by date</a> /
+                <a id="publication-by-topic" href="javascript:;", onClick="publicationByTopic();">show all by topic</a>
+            ) -->
+            </h5>
+<!--             <p class="subtitle-aux"><span class="bold">Topics:</span>
+                <a href="#topic-concept-learning" onClick="return publicationByTopicSpecific(this)" data-topic="concept-learning">Concept Learning and Language Acquisition</a> /
+                <a href="#topic-reasoning-planning" onClick="return publicationByTopicSpecific(this)" data-topic="reasoning-planning">Reasoning and Planning</a> /
+                <a href="#topic-scene-understanding" onClick="return publicationByTopicSpecific(this)" data-topic="scene-understanding">Scene and Activity Understanding</a> /
+                <a href="#topic-vision" onClick="return publicationByTopicSpecific(this)" data-topic="vision">Others: Vision</a> /
+                <a href="#topic-nlp" onClick="return publicationByTopicSpecific(this)" data-topic="nlp">Others: NLP</a>
+                <span class="note">(*/†: indicates equal contribution.)</span>
+            </p> -->
             <div id="main-pub-card-container" class="activated hide">
+                <!-- pub1 -->
                 <div class="pub-card" data-topic="coding-theory" data-year="2025" data-selected="true">
                     <div class="row">
                         <div class="col-l col-xs-12 col-lg-3">
@@ -204,29 +219,8 @@ a:hover{color:#566c7f}
                             </div>
                         </div>
                     </div>
-                </div>            <div id="main-pub-card-container" class="activated hide">
-                    <div class="pub-card" data-topic="coding-theory" data-year="2023" data-selected="true">
-                        <div class="row">
-                            <div class="col-l col-xs-12 col-lg-3">
-                                <img src="data/projects/sidonset.png" width="100%" />
-                            </div>
-                            <div class="col-r col-xs-12 col-lg-9">
-                                <div class="pub-card-body">
-                                    <h5 class="title">A Deterministic Construction of a Large Distance Code from the <br>Wozencraft Ensemble</h5>
-                                    <h6 class="authors">
-                                        <a href="https://people.eecs.berkeley.edu/~venkatg/">Venkatesan Guruswami</a>*,
-                                        <u>Shilun Li</u>*
-                                    </h6>
-                                    <p class="info">
-                                        <a href="https://randomconference.com/random-2023-home/" class="conference">RANDOM 2023</a>, published on IEEE Transactions on Information Theory
-                                        [<a href="https://ieeexplore.ieee.org/abstract/document/10777554">Paper</a>]
-                                        <span class="note">(*: Equal Contribution. Alphabetical order.)</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            <div id="main-pub-card-container" class="activated hide">
+                </div>   
+                <!-- pub2 -->
                 <div class="pub-card" data-topic="coding-theory" data-year="2023" data-selected="true">
                     <div class="row">
                         <div class="col-l col-xs-12 col-lg-3">
@@ -248,7 +242,7 @@ a:hover{color:#566c7f}
                         </div>
                     </div>
                 </div>
-
+                <!-- pub3 -->
                 <div class="pub-card" data-topic="applied-math" data-year="2023" data-selected="true">
                     <div class="row">
                         <div class="col-l col-xs-12 col-lg-3">
