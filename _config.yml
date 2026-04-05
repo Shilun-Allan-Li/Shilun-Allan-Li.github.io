@@ -376,6 +376,12 @@ compress_html:
 
 sass:
   style:               compressed
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+    - if-function
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
