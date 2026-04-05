@@ -1,0 +1,28 @@
+{% assign pubs = site.data.publications %}
+{% if pubs.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="publications" class="h3 hr-bottom">
+    {{ strings.resume.publications | default:"Publications" }}
+    <span class="symbol {{ icons.publications | default:'icon-book' }}"></span>
+  </h2>
+  {% for pub in pubs %}
+  <section>
+    <div class="{% unless forloop.first %}mt1{% endunless %}">
+      <p style="margin:0;">
+        <strong><a href="{{ pub.paper_url }}">{{ pub.title }}</a></strong>
+      </p>
+      <p style="margin:0;" class="faded">
+        {{ pub.authors_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines | replace: "Shilun Li", "<strong>Shilun Li</strong>" }}
+        &middot; <em>{{ pub.venue_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</em>
+        {% if pub.venue_note_md and pub.venue_note_md != "" %}
+        &middot; {{ pub.venue_note_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+        {% endif %}
+      </p>
+      <p style="margin:0;" class="faded"><small>{{ pub.description }}</small></p>
+    </div>
+  </section>
+  {% if forloop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}

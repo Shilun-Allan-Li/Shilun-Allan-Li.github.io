@@ -1,0 +1,21 @@
+{% if resume.awards.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="awards" class="h3 hr-bottom">
+    {{ strings.resume.awards | default:"Awards" }}
+    <span class="symbol {{ icons.awards | default:'icon-trophy' }}"></span>
+  </h2>
+  {% for awa in resume.awards %}
+  <section>
+    <div class="{% unless forloop.first %}mt1{% endunless %}">
+      <p style="margin:0;"><strong>{{ awa.title }}</strong></p>
+      <p style="margin:0;" class="faded">{% if awa.awarder.size > 0 %}{{ awa.awarder }}{% endif %}{% if awa.date.size > 0 %} — {{ awa.date | date:"%Y" }}{% endif %}</p>
+      {% if awa.summary.size > 0 %}
+      <p style="margin:0;" class="faded"><small>({{ awa.summary }})</small></p>
+      {% endif %}
+    </div>
+  </section>
+  {% if forloop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}

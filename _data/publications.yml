@@ -1,0 +1,29 @@
+- title: "Density Frankl–Rödl on the Sphere"
+  authors_md: "[Venkatesan Guruswami](https://people.eecs.berkeley.edu/~venkatg/)\\*, Shilun Li\\*"
+  venue_md: "[RANDOM 2025](https://randomconference.com/random-2025-home/)"
+  venue_note_md: ""
+  paper_url: "https://arxiv.org/abs/2505.09839"
+  image: "/assets/img/FRgraph.png"
+  image_alt: "FRgraph"
+  description: "Generalizes the Frankl–Rödl theorem to the sphere by proving a density statement for spherical avoidance problems; further establishes that all simplices are sphere Ramsey."
+  equal_contribution: true
+
+- title: "A Deterministic Construction of a Large Distance Code from the Wozencraft Ensemble"
+  authors_md: "[Venkatesan Guruswami](https://people.eecs.berkeley.edu/~venkatg/)\\*, Shilun Li\\*"
+  venue_md: "IEEE Transactions on Information Theory"
+  venue_note_md: "Presented at [RANDOM 2023](https://randomconference.com/random-2023-home/)"
+  paper_url: "https://ieeexplore.ieee.org/abstract/document/10777554"
+  image: "/assets/img/sidonset.png"
+  image_alt: "Sidon set"
+  description: "Applies Sidon sets to code construction (the first such application) and presents the first explicit construction of rate-1/2 Wozencraft codes with Ω(√k) minimum distance."
+  equal_contribution: true
+
+- title: "Dynamics and Probability in the Toss of a Coin with Symmetric Inhomogeneous Density"
+  authors_md: "Shilun Li"
+  venue_md: "Preprint"
+  venue_note_md: ""
+  paper_url: "https://arxiv.org/abs/2310.02662"
+  image: "/assets/img/coin.png"
+  image_alt: "Coin toss"
+  description: "Proves that coin tosses are biased — coins favor the starting face — and extends Diaconis's probability formula to general biased coins."
+  equal_contribution: false

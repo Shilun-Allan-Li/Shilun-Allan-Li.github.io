@@ -1,0 +1,6 @@
+{% assign resume = site.data.resume %}
+{% for awa in resume.awards %}
+- **{{ awa.title }}**{% if awa.awarder.size > 0 %}, {{ awa.awarder }}{% endif %}{% if awa.date.size > 0 %} — {{ awa.date | date:"%Y" }}{% endif %}
+{% if awa.summary.size > 0 %}  ({{ awa.summary }})
+{% endif %}
+{% endfor %}

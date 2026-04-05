@@ -1,0 +1,205 @@
+basics:
+  name: "Shilun (Allan) Li"
+  label: "PhD Student"
+  picture: /assets/img/profile.jpg
+  email: "allanli836@gmail.com"
+  website: "https://shilun-allan-li.github.io/"
+  summary: >
+    I am a fourth-year Ph.D. student in Mathematics at UC Berkeley, advised by Prof. Venkatesan Guruswami.
+    Previously, I graduated from Stanford University with a Bachelor's degree in Mathematics with honors
+    and a concurrent Master's degree in Computer Science (AI track).
+    My research interests lie broadly in Coding Theory, Complexity Theory, Automated Theorem Proving, and Machine Learning.
+  profiles:
+    - network: "Google Scholar"
+      username: "Shilun Li"
+      url: "https://scholar.google.com/citations?user=xKhyfocAAAAJ&hl=en"
+    - network: "Github"
+      username: "Shilun-Allan-Li"
+      url: "https://github.com/Shilun-Allan-Li"
+
+education:
+  - institution: "UC Berkeley"
+    area: "Mathematics"
+    studyType: "Ph.D."
+    startDate: "2022-08-01"
+    endDate: "2027-06-01"
+    date_note: "expected"
+    gpa: "4.0/4.0"
+    courses:
+      - "Advised by [Venkatesan Guruswami](https://people.eecs.berkeley.edu/~venkatg/)"
+  - institution: "Stanford University"
+    area: "Computer Science (AI track)"
+    studyType: "M.S."
+    startDate: "2019-09-01"
+    endDate: "2022-07-01"
+    gpa: "4.0/4.0"
+  - institution: "Stanford University"
+    area: "Mathematics with Honors"
+    studyType: "B.S."
+    startDate: "2018-09-01"
+    endDate: "2022-07-01"
+    gpa: "4.0/4.0"
+    courses:
+      - "Advised by [Rafe Mazzeo](https://profiles.stanford.edu/rafe-mazzeo)"
+
+work:
+  - company: "Apple"
+    position: "Machine Learning Intern"
+    location: "Cupertino, CA"
+    website: "https://www.apple.com/"
+    startDate: "2026-01-01"
+    endDate: "2026-07-01"
+    highlights:
+      - "Developed end-to-end ML systems to solve complex modeling problems."
+  - company: "XAcademy"
+    position: "Advisor/Lecturer"
+    location: "Shanghai, China"
+    website: "https://info.xacademy.cc/en/"
+    startDate: "2023-07-01"
+    endDate: "2025-08-01"
+    date_display: "Jul – Aug 2023 & Jul – Aug 2025"
+    highlights:
+      - "Taught a 45-lecture ML/DL course (2023) to 40 students, covering neural networks, RNNs, CNNs, NLP, Transformers, and LLMs."
+      - "Taught a 50-lecture Multimodal Learning course (2025) to 30 students, covering joint embeddings, alignment, multimodal Transformers, and vision–language applications."
+  - company: "Microsoft Research"
+    position: "Research Collaborator"
+    location: "Mountain View, CA"
+    website: "https://www.microsoft.com/en-us/research/"
+    startDate: "2024-05-01"
+    endDate: "2025-01-01"
+    highlights:
+      - "Built a post-training framework combining MCTS, PPO, and reward models for automated theorem proving."
+      - "Improved Qwen2.5-7B-Instruct by 10–25% on the MATH benchmark."
+  - company: "FutureX (Futurexyz Co.)"
+    position: "Co-founder"
+    location: "Palo Alto, CA"
+    website: ""
+    startDate: "2022-05-01"
+    endDate: "2023-05-01"
+    highlights:
+      - "Built a Web3 platform for professional networking and events."
+      - "Raised $300K in seed funding from MiraclePlus (formerly Y Combinator China)."
+  - company: "Tencent"
+    position: "AI Developer Intern"
+    location: "Shenzhen, China"
+    website: "https://www.tencent.com/"
+    startDate: "2021-06-01"
+    endDate: "2021-09-01"
+    highlights:
+      - "Designed a procedural 3D city-generation algorithm in Unreal Engine 4 (C++)."
+      - "Automated generation of roads, buildings, rivers, and parks for game environments."
+  - company: "Stanford Vision and Learning Lab (Fei-Fei Li)"
+    position: "Research Assistant"
+    location: "Stanford, CA"
+    website: "https://svl.stanford.edu/"
+    startDate: "2020-06-01"
+    endDate: "2020-10-01"
+    highlights:
+      - "Implemented Social-GAN pedestrian prediction on the JRDB dataset."
+      - "Evaluated predictions in real-world robot perception pipelines."
+  - company: "Stanford NLP Group (Christopher Manning)"
+    position: "Research Assistant"
+    location: "Stanford, CA"
+    website: "https://nlp.stanford.edu/"
+    startDate: "2019-06-01"
+    endDate: "2019-09-01"
+    highlights:
+      - "Designed a probing framework for BERT to analyze syntactic and semantic signals across intermediate layers."
+
+awards:
+  - title: "McBeth Family Fellowship in Mathematics"
+    date: "2025-01-01"
+    awarder: "UC Berkeley"
+    summary: ""
+  - title: "Departmental Honors in Mathematics"
+    date: "2022-06-01"
+    awarder: "Stanford University"
+    summary: "Awarded to top 15% of graduating cohort."
+  - title: "Top Three Projects"
+    date: "2018-01-01"
+    awarder: "Stanford BIOME Biohackathon"
+    summary: ""
+  - title: "AMS Special Award"
+    date: "2017-05-01"
+    awarder: "Intel ISEF"
+    summary: "The world's largest pre-college STEM competition."
+  - title: "National Best High School Student"
+    date: "2017-01-01"
+    awarder: "All-China Students' Federation"
+    summary: "Top 10 out of 170,000 nationwide."
+  - title: "First Prize (Two-time)"
+    date: "2016-01-01"
+    awarder: "Provincial Science & Technology Innovation Contest"
+    summary: "Top 5 out of 400 in the province."
+  - title: "Gold Award in Science & Gold Award in Math"
+    date: "2016-06-01"
+    awarder: "S.-T. Yau Science Award"
+    summary: "1st out of 5,800+ global participants."
+
+skills:
+  - name: "Mathematics"
+    level: 3
+    keywords:
+      - "Coding Theory"
+      - "Complexity Theory"
+      - "Combinatorics"
+      - "Probability Theory"
+  - name: "Machine Learning"
+    level: 3
+    keywords:
+      - "Pytorch"
+      - "LLM"
+      - "GNN"
+      - "Post Training"
+      - "Reinforcement Learning"
+  - name: "Python"
+    level: 2.5
+    keywords:
+      - "Scikit-learn"
+      - "NumPy / Pandas"
+      - "SQL"
+  - name: "C++"
+    level: 2.5
+    keywords:
+      - "High-Performance Computing"
+      - "GPU Programming"
+      - "Unreal Engine 4"
+  - name: "Theorem Formalization"
+    level: 2
+    keywords:
+      - "Lean 4"
+      - "Autoformalization"
+  - name: "Other Languages"
+    level: 2
+    keywords:
+      - "Java"
+      - "MATLAB"
+      - "Scala"
+      - "R"
+      - "Shell"
+
+languages:
+  - language: "English"
+    fluency: "Native Speaker"
+  - language: "Chinese Mandarin"
+    fluency: "Native Speaker"
+  - language: "Cantonese"
+    fluency: "Elementary Proficiency"
+
+interests:
+  - name: "Sports"
+    keywords:
+      - "Professional Freediver </br>(National Rank #45 CWB, #31 CNF)"
+      - "Skiing"
+      - "Tennis"
+      - "Golf"
+      - "Mountain Biking"
+  - name: "Other"
+    keywords:
+      - "Photography"
+      - "Pastry Arts"
+      - "Bartending"
+      - "Singing"
+      - "Gaming"
+
+# <https://jsonresume.org/>

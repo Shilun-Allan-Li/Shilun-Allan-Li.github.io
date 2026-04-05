@@ -1,0 +1,21 @@
+{% for pub in site.data.publications %}
+<div style="display:flex; align-items:center; gap:1.5em; margin-bottom:1.2em;">
+  <img src="{{ pub.image }}" alt="{{ pub.image_alt }}" style="width:200px; flex-shrink:0;">
+  <div>
+    <h3 style="margin-top:0.2em; margin-bottom:0.2em;"><strong>{{ pub.title }}</strong></h3>
+    <div style="margin-bottom:0.2em;">
+      <strong>{{ pub.authors_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</strong>
+      <em>{{ pub.venue_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</em>
+      | [<a href="{{ pub.paper_url }}">Paper</a>]
+    </div>
+    {% if pub.venue_note_md and pub.venue_note_md != "" %}
+    <div style="margin-bottom:0.2em;">({{ pub.venue_note_md | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }})</div>
+    {% endif %}
+    <div style="margin-bottom:0.2em;">{{ pub.description }}</div>
+    {% if pub.equal_contribution %}
+    <div><small>* Equal contribution. Authors listed alphabetically.</small></div>
+    {% endif %}
+  </div>
+</div>
+<hr>
+{% endfor %}
