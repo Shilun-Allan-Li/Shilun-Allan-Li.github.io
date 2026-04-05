@@ -1,7 +1,6 @@
 basics:
   name: "Shilun (Allan) Li"
   label: "PhD Student"
-  picture: /assets/img/profile.jpg
   email: "allanli836@gmail.com"
   website: "https://shilun-allan-li.github.io/"
   summary: >
@@ -156,8 +155,9 @@ skills:
     level: 2.5
     keywords:
       - "Scikit-learn"
-      - "NumPy / Pandas"
+      - "NumPy"
       - "SQL"
+      - "jekyll"
   - name: "C++"
     level: 2.5
     keywords:
