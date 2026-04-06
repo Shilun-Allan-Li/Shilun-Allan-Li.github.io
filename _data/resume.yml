@@ -7,7 +7,7 @@ basics:
     I am a fourth-year Ph.D. student in Mathematics at UC Berkeley, advised by Prof. Venkatesan Guruswami.
     Previously, I graduated from Stanford University with a Bachelor's degree in Mathematics with honors
     and a concurrent Master's degree in Computer Science (AI track).
-    My research interests lie broadly in Coding Theory, Complexity Theory, Automated Theorem Proving, and Machine Learning.
+    My research interests lie broadly in Error-Correcting Codes, Complexity Theory, Automated Theorem Proving, and Machine Learning.
   profiles:
     - network: "Google Scholar"
       username: "Shilun Li"
@@ -139,7 +139,7 @@ skills:
   - name: "Mathematics"
     level: 3
     keywords:
-      - "Coding Theory"
+      - "Error-Correcting Codes"
       - "Complexity Theory"
       - "Combinatorics"
       - "Probability Theory"
