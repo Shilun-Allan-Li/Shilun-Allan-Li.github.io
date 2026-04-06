@@ -51,6 +51,8 @@ menu:
     url:               /resume/
   - title:             Publications
     url:               /publications/
+  - title:             TCSlib
+    url:               /projects/tcslib/
   - title:             Distinctions
     url:               /distinctions/
   - title:             Posts
