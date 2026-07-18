@@ -49,7 +49,9 @@ work:
     startDate: "2026-01-01"
     endDate: "2026-07-01"
     highlights:
-      - "Developed end-to-end ML systems to solve complex modeling problems."
+      - "Built internal performance models for next-generation Apple silicon."
+      - "Derived novel physical-system theories and implemented them in production models."
+      - "Wrote custom CUDA and Metal kernels for physics at scale at high performance."
   - company: "XAcademy"
     position: "Advisor/Lecturer"
     location: "Shanghai, China"
