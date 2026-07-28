@@ -13,7 +13,7 @@ sidebar: true
 
 ## Experience
 
-- Machine Learning Intern, Apple Inc. (Cupertino, CA), 01/2026 – 07/2026
+- Machine Learning Intern, [Apple](https://www.apple.com/) (Cupertino, CA), 01/2026 – 07/2026
 - Advisor/Lecturer, [XAcademy](https://info.xacademy.cc/en/) (Shanghai, China), 07/2023 – 08/2023 & 07/2025 – 08/2025
 - Research Collaborator, [Microsoft Research](https://www.microsoft.com/en-us/research/) (Mountain View, CA), 05/2024 – 01/2025
 - Co-founder, FutureX / Futurexyz Co. (Palo Alto, CA), 05/2022 – 05/2023
